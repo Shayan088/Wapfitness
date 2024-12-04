@@ -1,0 +1,32 @@
+<!DOCTYPE html>  
+<html lang="fa">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">  
+    <title>ورود به سیستم</title>  
+</head>  
+<body>  
+    <div class="container">  
+        <div class="login-box">  
+            <h1>ورود به سیستم</h1>  
+            <form id="loginForm">  
+                <input type="text" placeholder="نام کاربری" required>  
+                <input type="password" placeholder="رمز عبور" required>  
+                <button type="submit">ورود</button>  
+                <p>حساب ندارید؟ <a href="signup.html">اینجا ثبت نام کنید</a></p>  
+            </form>  
+            <label for="lang">زبان:</label>  
+            <select id="lang" onchange="changeLanguage()">  
+                <option value="fa">فارسی</option>  
+                <option value="en">English</option>  
+                <option value="fr">Français</option>  
+                <option value="ru">Русский</option>  
+                <option value="es">Español</option>  
+                <option value="ar">العربية</option>  
+            </select>  
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
+</html>  
