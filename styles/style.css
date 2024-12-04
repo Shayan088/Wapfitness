@@ -9,6 +9,12 @@ body {
     height: 100vh; /* Full viewport height */  
 }  
 
+.title1 {
+    color: #98a6bd;
+margin-left: 25px;
+font-size : 15px;
+}
+
 /* Container for the login box */  
 .container {  
     display: flex;  
