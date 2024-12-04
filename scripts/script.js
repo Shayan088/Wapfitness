@@ -35,4 +35,4 @@ const translations = {
 function logout() {  
     // Clear user session and redirect to login  
     window.location.href = 'index.html';  
-} 
+}  
