@@ -10,9 +10,11 @@ body {
 }  
 
 .title1 {
-    color: #98a6bd;
+color: #c0df34;
+font-size : 20px;
 margin-left: 25px;
-font-size : 15px;
+margin-bottom: 15px;
+height: 10px;
 }
 
 /* Container for the login box */  
